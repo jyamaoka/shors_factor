@@ -2,7 +2,7 @@
 name = "shors_factor"
 version = "0.1.0"
 description = "Factor an 8-bit number using Shor's algorithm with Qiskit"
-authors = [{ name = "Your Name", email = "your@email.com" }]
+authors = [{ name = "Jared Yamaoka", email = "jared.yamaoka@outlook.com" }]
 requires-python = ">=3.9"
 
 [tool.setuptools.packages.find]
