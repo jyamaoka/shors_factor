@@ -1,5 +1,5 @@
 import pytest
-from shors_factor.factoring import factor_number
+from shors_factor.factoring_simple import factor_number
 
 def test_factor_known_numbers():
     # Note: Shor's algorithm is probabilistic
@@ -10,8 +10,8 @@ def test_factor_known_numbers():
     }
 
     for number, expected_factors in known_factors.items():
-        factor = factor_number(number, seed=42)
-        assert factor in expected_factors, f"{number} -> {factor}"
+        factor = factor_number(number, max_attempts=200)
+        assert factor == expected_factors, f"{number} -> {factor}"
 
 def test_invalid_number():
     with pytest.raises(ValueError):
