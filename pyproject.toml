@@ -10,3 +10,4 @@ where = ["shors_factor"]
 
 [project.dependencies]
 qiskit = "^1.0.0"
+qiskit_aer = "^0.16.0"
