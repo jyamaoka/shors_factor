@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+shors_factor/shors_factor.egg-info/PKG-INFO
+shors_factor/shors_factor.egg-info/SOURCES.txt
+shors_factor/shors_factor.egg-info/dependency_links.txt
+shors_factor/shors_factor.egg-info/requires.txt
+shors_factor/shors_factor.egg-info/top_level.txt
+tests/test_factoring.py

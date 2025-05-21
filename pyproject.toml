@@ -1,13 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "shors_factor"
 version = "0.1.0"
 description = "Factor an 8-bit number using Shor's algorithm with Qiskit"
 authors = [{ name = "Jared Yamaoka", email = "jared.yamaoka@outlook.com" }]
 requires-python = ">=3.9"
+dependencies = [
+    "qiskit>1.0.0", 
+    "qiskit_aer>=0.16.0"
+]
 
-[tool.setuptools.packages.find]
-where = ["shors_factor"]
+[tool.setuptools]
+packages = ["shors_factor"]
 
-[project.dependencies]
-qiskit = "^1.0.0"
-qiskit_aer = "^0.16.0"
+[project.optional-dependencies]
+testing = [
+    "pytest",
+    "pytest-cov",
+]
+
+
