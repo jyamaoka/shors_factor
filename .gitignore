@@ -1,4 +1,10 @@
+.pytest_cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+
 .ipynb_checkpoints
 .vs_code
-.pytest_cache
-__pycache__

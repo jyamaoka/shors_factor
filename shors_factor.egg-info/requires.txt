@@ -1,6 +1,0 @@
-qiskit>1.0.0
-qiskit_aer>=0.16.0
-
-[testing]
-pytest
-pytest-cov
