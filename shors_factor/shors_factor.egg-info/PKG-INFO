@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: shors_factor
+Version: 0.1.0
+Summary: Factor an 8-bit number using Shor's algorithm with Qiskit
+Author-email: Jared Yamaoka <jared.yamaoka@outlook.com>
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: qiskit>=1.0.0
+Requires-Dist: qiskit_aer>=0.16.0
+Dynamic: license-file
